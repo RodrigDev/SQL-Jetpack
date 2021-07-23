@@ -1,0 +1,2 @@
+rootProject.name = "SQL + Jetpack Test"
+include ':app'
