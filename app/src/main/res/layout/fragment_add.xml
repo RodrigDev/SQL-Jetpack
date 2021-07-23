@@ -31,7 +31,10 @@
             tools:ignore="RtlHardcoded,RtlSymmetry"
             android:importantForAutofill="no" />
 
-        <EditText
+        <com.santalu.maskara.widget.MaskEditText
+            app:mask="+55 (__) _____-____"
+            app:maskCharacter="_"
+            app:maskStyle="completable"
             android:id="@+id/editTextAddPhone"
             android:layout_width="0dp"
             android:layout_height="50dp"
